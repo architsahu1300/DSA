@@ -1,0 +1,31 @@
+1. Bubble sort:
+For each iteration, we move the maximum value to the end (ascending order) of array by comparing numbers in pair
+Can be optimized by using a swap flag as false in beginning and making it true if atleast one swap is made
+(No swap in first iteration means that array is already sorted
+
+for(int i=0;i<(n-1);i++){
+    swap=false;
+    for(int j=0;j<n-i-1;j++){
+        if(a[j]>a[j+1])
+            swap(a[j],a[j+1]);
+            swap=true;
+    if(swap==false) break;
+
+
+2. Merge sort
+
+Divide and conquer
+
+
+
+3. Selection sort
+
+At any position i,from i to n we want the minimum number to be at ith place (min number at first)
+
+
+
+4. Quick sort
+
+Take a pivot element (any index) pivot should always go to its correct position, i.e., right to smaller and left to greater elements
+Then we recursively sort the left side and right side of the pivot element
+
