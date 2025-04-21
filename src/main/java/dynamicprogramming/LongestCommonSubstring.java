@@ -3,7 +3,8 @@ package dynamicprogramming;
 public class LongestCommonSubstring {
     public static void main(String[] args) {
         String X = "abcdef";
-        String Y = "abfce";int m = X.length();
+        String Y = "abfce";
+        int m = X.length();
         int n = Y.length();
         int[][] dp = new int[m+1][n+1];
         System.out.println(longestCommonSubstring(X,Y,m,n,dp));
