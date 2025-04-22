@@ -2,7 +2,7 @@ package dynamicprogramming;
 
 public class LongestCommonSubsequenceTopDown {
     public static void main(String[] args) {
-        String X = "";
+        String X = "abcgh";
         String Y = "abcghghghgedfr";
         int m = X.length();
         int n = Y.length();
